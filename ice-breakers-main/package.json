@@ -1,0 +1,21 @@
+{
+  "name": "ice-breakers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run --prefix ./client dev",
+    "server": "npm run --prefix ./server dev",
+    "lint": "npm run --prefix ./client lint",
+    "format": "npm run --prefix ./client format && npm run --prefix ./server format"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/react-label": "^2.0.2",
+    "cmdk": "^0.2.1",
+    "embla-carousel-react": "^8.0.0-rc22",
+    "react-admin": "^4.16.11"
+  }
+}
